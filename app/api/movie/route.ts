@@ -7,8 +7,8 @@ export async function GET(request: Request) {
 
     const { data } = await client.get(`/titles?${params}`, {
       headers: {
-        'X-RapidAPI-Key': `${process.env.NEXT_PUBLIC_API_KEY}`,
-        'X-RapidAPI-Host': `${process.env.NEXT_PUBLIC_API_HOST}`,
+        'X-RapidAPI-Key': `${process.env.API_KEY}`,
+        'X-RapidAPI-Host': `${process.env.API_HOST}`,
       },
     });
 
