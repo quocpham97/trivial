@@ -1,0 +1,15 @@
+export const ListMovieCategories = [
+  'Action',
+  'Adventure',
+  'Animation',
+  'Comedy',
+  'Drama',
+  'Family',
+  'Fantasy',
+  'Music',
+  'Mystery',
+  'Romance',
+  'Thriller',
+  'War',
+  'Western',
+];
